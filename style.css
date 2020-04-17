@@ -1,0 +1,35 @@
+a{
+text-decoration: none;
+color : blue;
+}
+@media(min-width:700px){
+    h1{
+      font-size: 100px;
+      text-align: center;
+      border-bottom : gray 5px solid;
+      margin:0px;
+    }
+
+    ol{
+      border-right : gray 5px solid;
+       width:75px;
+       margin:0;
+       padding:10px;
+       margin-left: 30px;
+    }
+    #grid{
+        display:grid;
+        grid-template-columns: 1fr 10fr;
+    }
+    .body{
+      padding:20px
+    }
+    .title{
+      display:grid;
+      grid-template-columns: 1fr 50px;
+    }
+    .button{
+      height:30px;
+      margin-top: 107.67px;
+    }
+  }
